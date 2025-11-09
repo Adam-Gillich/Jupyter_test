@@ -76,7 +76,17 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+# Ignore Jupyter checkpoint directories
+.ipynb_checkpoints/
+# Ignore automated/processed notebook outputs (e.g. created by nbclient/automation)
+# matches files like StarterNotebook-executed.ipynb
+*-executed.ipynb
+# Ignore nbconvert output files
+*.nbconvert.ipynb
+# Jupyter runtime and workspace
+.jupyter/
+.jupyterlab/
+.local/share/jupyter/runtime/
 
 # IPython
 profile_default/
