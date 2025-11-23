@@ -6,3 +6,7 @@ matplotlib==3.10.7
 ipykernel==7.1.0
 # optional: plotly (uncomment and pin if you need it)
 # plotly==5.16.0
+
+# Orbital mechanics example
+poliastro
+astropy
